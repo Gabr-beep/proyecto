@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #00FF7F;
+}
+.header {
+    background-color: #2E8B57;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.header .brand {
+    display: flex;
+    align-items: center;
+    font-size: 180%;
+    transition: all 0.3s;
+    padding-left: 5%;
+}
+.header .brand:hover {
+transform: scale(1.2);
+}
+.header .brand nav {
+    background-color: #ADFF2F;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.header .brand nav a {
+    color: #2E8B57;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0;
+
+}
+.navigation {
+    display: flex;
+}
+.navigation a {
+    color: rgb(199, 230, 187);
+    padding: 0 80px;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+
+.navigation a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+}
+.login-register {
+    position: absolute;
+    margin-top: 1100px;
+    margin-left: 675px;
+   
+  
+}
+.login-register a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+  
+}

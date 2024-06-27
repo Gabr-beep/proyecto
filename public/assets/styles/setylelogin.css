@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #00FF7F;
+}
+
+.login-container {
+    text-align: center;
+    width: 300px;
+}
+
+.logo-container .logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form .forgot-password {
+    display: block;
+    margin: 10px 0;
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.login-form .login-button, 
+.login-form .register-button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form .login-button {
+    background-color: black;
+    color: white;
+}
+
+.login-form .register-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.alternative-login {
+    margin: 20px 0;
+    font-size: 12px;
+    color: #888;
+}
+
+.google-button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-media a img {
+    width: 20px;
+    height: 20px;
+}
+
+
